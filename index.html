@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="icon.png"/>
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Home - Best Intraday, Bank Nifty Options Calls Daily</title>
+</head>
+<body>
+
+  <div class="main">
+
+    <div class="logo">
+        <img src="icon.png" alt="logo" id="icon">
+        <h4 id="logo_name">Trader Stocks</h4>
+    </div>
+
+    <div id="line"></div><br>
+   
+   <h2>Banknifty, Nifty, Stock Option Calls Intraday.</h2>
+
+   <iframe src="https://www.youtube.com/embed/RyYAf1Uc1TA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+   <a href="https://t.me/tradersstocks" id="join_btn"><i class='bx bxl-telegram'></i>&nbsp;&nbsp;Join Our Telegram Channel</a>
+   
+   <div class="some_tips">
+       <p><i class='bx bx-check'></i>&nbsp;Banknifty,Nifty, Stock Options Equity</p>
+       <p><i class='bx bx-check'></i>&nbsp;Daily 2-3 Intraday Calls</p>
+       <p><i class='bx bx-check'></i>&nbsp;Banknify Trading Levels</p>
+
+   </div>
+
+   <br>
+   <div id="line"></div>
+   <h3><i class='bx bx-calendar' ></i>&nbsp;Last week profit proof</h3>
+
+   <div class="screen_shots">
+       <img src="s1.jpg" alt="" onclick="openImg('s1.jpg')">
+       <img src="s2.jpeg" alt="" onclick="openImg('s2.jpeg')">
+       <img src="s3.jpeg" alt="" onclick="openImg('s3.jpeg')">
+   </div>
+
+   <a href="https://t.me/tradersstocks" id="join_btn"><i class='bx bxl-telegram'></i>&nbsp;&nbsp;Join Our Telegram Channel</a>
+   <a href="http://api.whatsapp.com/send?phone=+918731911455"" id="join_btn2"><i class='bx bxl-whatsapp' ></i>&nbsp;&nbsp;Contact Me</a>
+   <br>
+
+   <div class="float">
+    <a href="https://t.me/tradersstocks" ><i class='bx bxl-telegram'></i></a>
+   </div>
+
+
+  </div>
+
+  
+  <div class="full_scrn">
+       <img src="" alt="" id="full_img">
+       <button id="close_dialog"><i class='bx bx-x-circle'></i></button>
+  </div>
+
+  <script>
+      let full_img = document.querySelector("#full_img");
+      let full_scrn = document.querySelector(".full_scrn");
+      let close_dialog = document.querySelector("#close_dialog");
+
+      function openImg(img){
+        full_scrn.style.display = "block";
+        full_img.src = img;
+      }
+
+      close_dialog.addEventListener("click", function(){
+        full_scrn.style.display = "none";
+      });
+  </script>
+
+</body>
+</html>
